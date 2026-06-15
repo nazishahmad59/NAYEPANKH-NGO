@@ -22,7 +22,15 @@ html {
     transform: translateY(0);
 }
 
-/* Accessibility: Jinhone animations disable kiye hain unke liye */
+.text-justify h1, 
+.text-justify h2, 
+.text-justify h3, 
+.text-justify h4, 
+.text-justify h5, 
+.text-justify h6 {
+    text-align: left !important;
+}
+
 @media (prefers-reduced-motion: reduce) {
     html {
         scroll-behavior: auto;
